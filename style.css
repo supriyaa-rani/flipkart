@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 60px;
+    /* background-color:antiquewhite; */
+    display: flex;
+    
+}
+.left-nav{
+    height: 100%;
+    width: 50%;
+   
+    line-height: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-nav>img{
+   
+   /* background-color: aquamarine; */
+   padding-left: 0px;
+}
+#ankar>a:first-child{
+    padding-left: 40px;
+    color: #9e9e9e;
+}
+#ankar>a{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffc200;
+    
+}
+#search{
+    height:80%;
+    width: 70%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search>button{
+    height: 70%;
+    width: 8%;
+    background-color: rgb(232, 232, 248);
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+#search>button>i{
+    color: rgb(105, 100, 100);
+}
+#search>input{
+    height: 70%;
+    width: 75%;
+    background-color: rgb(232, 232, 248);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.right-nav{
+    height: 100%;
+    width: 50%;
+    
+    /* line-height: 12px; */
+   padding: 20px 10px;
+
+   
+}
+#content-2{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#seller>span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 14px;
+}
+#sign-in>span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 14px;
+}
+#cart>span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 14px;
+}
+
+/* hero-1 */
+
+#hero-1{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(240, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#items{
+    height: 90%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#item-1{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+    
+    
+}
+
+#item-2{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-3{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-4{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-5{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-6{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-7{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-8{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-9{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+#item-10{
+    width: 9%;
+    height: 80%;
+    text-align: center;
+}
+
+
+/* hero-2 */
+
+#hero-2{
+    height:40%;
+    width: 100%;
+    background-color:rgb(240, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    height: 90%;
+    width: 98%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/ffeb169a27907387.jpg?q=20);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* hero-3 */
+
+#hero-3{
+    height: 20%;
+    width: 100%;
+    background-color:rgb(240, 236, 236) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2{
+    height: 90%;
+    width: 98%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/140/image/9ee27aa0c23e89ac.jpg?q=20);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* hero-4 */
+#hero-4{
+    height:70%;
+    width: 100%;
+    background-color: rgb(240, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#conte{
+    height: 15%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    
+}
+#conte>h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+#cover{
+    height: 80%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#conte-2{
+    height: 80%;
+    width: 80%;
+    /* background-color: #ffc200; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#conte-3{
+    /* background-color: #ffc200; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* hero-5 */
+
+#hero-5{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(240, 236, 236) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conte-4{
+    height: 90%;
+    width: 98%;
+    /* background-color: #ffc200; */
+    display: flex;
+    justify-content: space-between;
+}
+#box7{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/ff5fe829530cf197.jpg?q=20);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#box8{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/07b437dc74cb4f25.jpg?q=20);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#box9{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/001d5002a4adeeaf.jpg?q=20);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* hero-6 */
+
+
+#hero-6{
+    height: 60%;
+    width: 100%;
+    background-color:rgb(240, 236, 236) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+#conte-5{
+    height: 20%;
+    width: 98%;
+    background-color: white;
+    
+}
+#conte-5>h2{
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+#conte-6{
+    height: 75%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+#box10{
+   border: 1px solid rgb(165, 163, 163);
+    padding: 3px 15px;
+    border-radius: 3px;
+
+}
+#box11{
+    border: 1px solid rgb(165, 163, 163);
+     padding: 3px 15px;
+     border-radius: 3px;
+ }
+ #box12{
+    border: 1px solid rgb(165, 163, 163);
+     padding: 3px 15px;
+     border-radius: 3px;
+ }
+ #box13{
+    border: 1px solid rgb(165, 163, 163);
+     padding: 3px 15px;
+     border-radius: 3px;
+ }
+ #box14{
+    border: 1px solid rgb(165, 163, 163);
+     padding: 3px 15px;
+     border-radius: 3px;
+ }
+
+ /* hero-7 */
+
+
+ #hero-7{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(240, 236, 236) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conte-7{
+    height: 90%;
+    width: 98%;
+    /* background-color: #ffc200; */
+    display: flex;
+    justify-content: space-between;
+}
+#box15{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/8e706d5a2c7967f2.jpg?q=20);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#box16{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/c4099de7a5297e8c.jpg?q=20);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#box17{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/d11e81dfe7f47c84.jpg?q=20);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* hero-8 */
+
+#hero-8{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(240, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#conte-8{
+    height: 20%;
+    width: 98%;
+    background-color: white;
+}
+#conte-8>h2{
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+#conte-9{
+    height: 75%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    text-align: center;
+}
+#box18{
+    border: 1px solid rgb(165, 163, 163);
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+#box19{
+    border: 1px solid rgb(165, 163, 163);
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+#box20{
+    border: 1px solid rgb(165, 163, 163);
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+#box21{
+    border: 1px solid rgb(165, 163, 163);
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+#box22{
+    border: 1px solid rgb(165, 163, 163);
+    padding: 3px 15px;
+    border-radius: 3px;
+}
+
+
+/* hero-9 */
+
+#hero-9{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(240, 236, 236) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conte-10{
+    height: 90%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+#box23{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/66a95f7b8a2de8d0.jpg?q=20);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box24{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/5549c8378ebc39ec.jpg?q=20);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box25{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/62f485577d8e3f7c.jpg?q=20);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#footer{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boso1{
+    height: 85%;
+    width: 45%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+#boso2{
+    height: 85%;
+    width: 45%;
+    display: flex;
+}
+#box26{
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+}
+#box27{
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+}
+#box28{
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+}
+#box29{
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+h5{
+    padding-bottom: 15px;
+    font-weight: 200;
+    color: grey;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#box30{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+}
+#box31{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+}
+h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 15px;
+}
+#box31>h6>span{
+    color: blue;
+}
